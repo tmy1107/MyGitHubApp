@@ -44,7 +44,7 @@ class UserManager {
                     return Just.init(user).setFailureType(to: Error.self).eraseToAnyPublisher()
                 } catch {
                     print("JSON 解析失败: \(error)")
-                    return Fail(error: NSError()).eraseToAnyPublisher()
+                    return Fail(error: error).eraseToAnyPublisher()
                 }
             })
             .eraseToAnyPublisher()

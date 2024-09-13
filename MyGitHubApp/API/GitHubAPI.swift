@@ -24,6 +24,7 @@ class GitHubAPI {
         return Future<Data, Error> { promise in
             let task = URLSession.shared.dataTask(with: request) { data, response, error in
                 if let error = error {
+                    print("网络错误: \(String(describing: error.localizedDescription))")
                     promise(.failure(error))
                     return
                 }
@@ -39,9 +40,11 @@ class GitHubAPI {
                         // 其他错误
                         print("服务器错误，状态码: \(httpResponse.statusCode)")
                         promise(.failure(NSError(domain: "GitHubAPI", code: httpResponse.statusCode)))
+                        return
                     }
                 }
                 
+                print("未知错误")
                 promise(.failure(NSError(domain: "GitHubAPI", code: -1)))
             }
             

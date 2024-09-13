@@ -73,10 +73,10 @@ class BiometricAuthencationHelper {
         context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
             DispatchQueue.main.async {
                 if success {
-                    print("生物认证绑定成功")
+                    print("生物认证成功")
                     completion?(true)
                 } else {
-                    print("生物认证绑定失败: \(String(describing: authenticationError?.localizedDescription))")
+                    print("生物认证失败: \(String(describing: authenticationError?.localizedDescription))")
                     completion?(false)
                 }
             }

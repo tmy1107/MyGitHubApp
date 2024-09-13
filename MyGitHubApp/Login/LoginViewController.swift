@@ -103,9 +103,11 @@ class LoginViewController: UIViewController {
                 self?.activityIndicator.stopAnimating()
                 switch completion {
                 case .finished:
+                    print("登录成功")
                     self?.dismiss(animated: true)
                     BiometricAuthencationHelper.bind(token: token)
                 case .failure(let error):
+                    print("登录失败")
                     if (error as NSError).code == 401 {
                         // Access token 无效
                         UIViewController.showErrorTips("invalid_token".L)

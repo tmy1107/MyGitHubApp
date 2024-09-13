@@ -7,7 +7,7 @@
 		<key>MyGitHubApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>SnapKitPlayground (Playground) 1.xcscheme</key>
 		<dict>
@@ -29,6 +29,24 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>150819592C919FF300051343</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1508196F2C919FF500051343</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>150819792C919FF500051343</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
