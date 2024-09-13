@@ -27,4 +27,4 @@ An iOS App providing the abilities to view your personal repositories as well as
 
 ## Showcase
 
-<video src="Resources/showcase.MP4"></video>
+See the video `showcase.mp4` under the `Resources` folder
