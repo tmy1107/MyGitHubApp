@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  MyGitHubApp
+
+  Created by tangmengyue on 2024/9/13.
+  
+*/
+
+"login" = "登录";
+"retry" = "重试";
+"network_retry" = "网络错误，请重试";
+"confirm" = "确定";
+"search_result" = "搜索结果";
+"repository" = "仓库";
+"my" = "我";
+"search_repository" = "输入关键词搜索在线仓库";
+"search" = "搜索";
+"personal_repository" = "个人仓库列表";
+"logout" = "退出登录";
+"user" = "用户";
+"not_login" = "未登录";
+"input_token" = "输入你的Github access token";
+"biometric_login" = "生物认证登录";
+"token_not_empty" = "access token不能为空";
+"invalid_token" = "access token 无效，请使用一个新的 token 重新登录";
+"login_error" = "登录失败，请重试";
+"login_hint" = "登录以查看个人信息与仓库列表";
+"bind_biometric" = "绑定生物认证";
+"bind_biometric_hint" = "是否绑定生物认证以便下次快速登录？";
+"bind" = "绑定";
+"bind_biometric_reason" = "请绑定生物识别以便下次快速登录";
+"pass" = "跳过";
+"biometric_not_support" = "不支持生物认证";
+"token_login" = "请先通过 token 登录";
+"use_biometric_login" = "使用生物认证登录";
