@@ -11,7 +11,7 @@ import KeychainSwift
 import UIKit
 
 class BiometricAuthencationHelper {
-    private static let keychainKey = "GitHubToken3"
+    private static let keychainKey = "GitHubToken4"
     
     private static let keychain = KeychainSwift()
     
